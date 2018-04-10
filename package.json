@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sha_Dryx",
   "license": "ISC",
   "dependencies": {
     "request": "^2.85.0",
     "request-promise-any": "^1.0.5"
-  }
+  },
+  "github": "https://github.com/adri326/discordbots-prefix.git"
 }
