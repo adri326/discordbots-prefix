@@ -22,6 +22,12 @@ let url = "https://discordbots.org/api"
 let offset = "offset"
 let limit = "limit"
 let maxlimit = 500
+let fields_name = "fields"
+let fields = [
+  "id",
+  "username",
+  "discriminator",
+  "prefix"].join(",");
 
 let _n = 0, amount = 0, coll = 0;
 
@@ -31,7 +37,8 @@ function options(n = 0) {
     uri: `${url}/bots`,
     qs: {
       [offset]: maxlimit * n,
-      [limit]: maxlimit
+      [limit]: maxlimit,
+      [fields_name]: fields
     }
   }
 }
