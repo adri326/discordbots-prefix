@@ -8,6 +8,8 @@ Clone this repository: `git clone https://github.com/adri326/discordbots-prefix`
 
 Hop into the cloned repository: `cd discordbots-prefix`
 
+Install the required modules: `npm i`
+
 Run the program using `node ./index.js [..args]`
 
 ## Usage
